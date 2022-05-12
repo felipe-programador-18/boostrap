@@ -3,10 +3,30 @@ margin: 0%;
 background-color: darkcyan;
 }
 
+@keyframes changeColor {
+    0%{background-color:red; width: 400px;}
+    15%{background-color:yellowgreen;  width: 400px;}
+    25%{background-color:blue;  width: 400px;}
+    50%{background-color:brown;  width: 400px;}
+    100%{background-color:grey;  width: 400px;}
+    
+}
+.box{
+    animation-name: changeColor;
+    animation-duration: 10s; 
+    animation-direction: reverse;
+    animation-iteration-count: 2;
+}
 
 
+.programmer{
+    height: 100px;
+    width: 100px;
+    row-gap: 20px;
+}
 
 .reac{
+  
   height: 500px;
   width: 500px;
   margin: 10px;
