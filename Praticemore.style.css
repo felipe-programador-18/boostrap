@@ -1,6 +1,7 @@
 body{
 margin: 0%;
 background-color: darkcyan;
+
 }
 
 @keyframes changeColor {
@@ -20,9 +21,7 @@ background-color: darkcyan;
 
 
 .programmer{
-    height: 100px;
-    width: 100px;
-    gap: 30px;
+   row-gap: 10px;
 }
 
 .reac{
