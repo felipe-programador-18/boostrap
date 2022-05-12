@@ -22,7 +22,7 @@ background-color: darkcyan;
 .programmer{
     height: 100px;
     width: 100px;
-    row-gap: 20px;
+    gap: 30px;
 }
 
 .reac{
