@@ -30,3 +30,8 @@ background-color: darkcyan;
   width: 500px;
   margin: 10px;
 }
+
+#morepra{
+  align-items: center;
+  justify-items: center;
+}
