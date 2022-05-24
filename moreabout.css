@@ -3,6 +3,15 @@
     background-color: tomato;
 }
 
+div > p{
+    background-color: crimson;
+}
+
+
+::first-letter{
+    color: rgb(186, 56, 56);
+}
+
 h2{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: darkgrey;
