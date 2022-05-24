@@ -38,6 +38,14 @@ header {
     background-color: steelblue;
 }
 
-[title~='person']{
+[title]{
+    background-color: brown;
+}
+
+[title~='title']{
     color: yellow;
+}
+
+[title^='ore']{
+    font-size: large;
 }
