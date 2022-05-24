@@ -7,10 +7,13 @@ div > p{
     background-color: crimson;
 }
 
-
 ::first-letter{
     color: rgb(186, 56, 56);
 }
+p::first-line{
+    color: yellowgreen;
+}
+
 
 h2{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
