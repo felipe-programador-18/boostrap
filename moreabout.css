@@ -1,8 +1,9 @@
 .father{
-    width: 1000px;
+    
     background-color: tomato;
 }
 .reac{
+    margin: 20px;
     height: 300px;
-    width: 100;
+    width: 100px;
 }
