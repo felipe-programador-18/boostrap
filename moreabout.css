@@ -32,6 +32,12 @@ p{
 }
 
 
-header > p{
-    color: steelblue;
+
+
+header {
+    background-color: steelblue;
+}
+
+[title~='person']{
+    color: yellow;
 }
