@@ -1,3 +1,45 @@
-input{
- 
+li,a,button:hover {
+ border: 3px solid greenyellow;
+ border-radius: 10px;
+ color: red;
+}
+
+
+li:nth-child(5){
+    background-color: aquamarine;
+}
+
+@keyframes changeTextarea {
+    0%{width:100px; background-color: dodgerblue;}
+    100%{width: 200px; background-color: red;}
+}
+
+.move{
+    animation-name: changeTextarea;
+    animation-duration: 5s;
+    animation-delay: 10s;
+}
+
+
+@keyframes changeColor {
+    0%{ width: 100px;}
+    25%{background-color: rgba(98, 255, 0, 0.978); width: 200px; height: 300px; }
+    50%{background-color: rgba(140, 235, 8, 0.379); width: 300px;}
+    100%{background-color: rgb(219, 61, 61); width: 400px;}
+
+    
+}
+
+
+
+.reac{
+    height: 150px;
+    width: 150px;
+    border: solid;
+    animation-duration: 4s;
+    animation-name: changeColor;
+    animation-direction: alternate-reverse;
+    animation-delay:4s;
+    animation-fill-mode: both;
+   
 }
