@@ -11,13 +11,13 @@ li:nth-child(5){
 
 @keyframes changeTextarea {
     0%{width:100px; background-color: dodgerblue;}
-    100%{width: 200px; background-color: red;}
 }
 
 .move{
-    animation-name: changeTextarea;
-    animation-duration: 5s;
-    animation-delay: 10s;
+    animation-name:changeTextarea;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
 }
 
 
@@ -30,16 +30,34 @@ li:nth-child(5){
     
 }
 
-
-
 .reac{
     height: 150px;
     width: 150px;
     border: solid;
     animation-duration: 4s;
     animation-name: changeColor;
-    animation-direction: alternate-reverse;
+    animation-direction:alternate-reverse;
     animation-delay:4s;
     animation-fill-mode: both;
+    animation-iteration-count: infinite;
    
+}
+
+
+
+
+@keyframes moveon {
+    0%{height: 150px;width: 150px; background-color: crimson; }
+    25%{height: 200px; width: 200px; background-color: cornflowerblue;}
+    100%{height: 250px; width: 250px; background-color: yellowgreen;}
+}
+
+
+.another{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: moveon;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
