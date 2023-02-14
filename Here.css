@@ -1,0 +1,17 @@
+body{
+    background-color: tomato;
+}
+
+.father{
+    text-align: center;
+}
+input{
+    display: flex;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+
+#testing{
+    height: 400px;
+    width: 300px;
+}
